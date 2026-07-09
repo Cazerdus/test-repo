@@ -1,0 +1,49 @@
+:root {
+  --color-teal: #0D5E6E;
+  --color-teal-light: #E8F4F8;
+  --color-teal-dark: #083D49;
+  --color-navy: #0A2E3F;
+  --color-yellow: #F4B740;
+  --color-yellow-hover: #E5A82E;
+  --color-white: #FFFFFF;
+  --color-gray-50: #F8FAFB;
+  --color-gray-100: #F0F3F5;
+  --color-gray-200: #E1E6EA;
+  --color-gray-400: #9BA6B0;
+  --color-gray-600: #6B7A85;
+  --color-gray-800: #2D3A45;
+  --color-text: #1A2630;
+  --color-text-light: #5A6A75;
+
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2rem;
+  --font-size-4xl: 2.5rem;
+  --font-size-5xl: 3rem;
+
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+  --spacing-4xl: 6rem;
+
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-full: 50%;
+
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
+  --shadow-lg: 0 8px 30px rgba(0,0,0,0.12);
+
+  --container-max: 1200px;
+  --container-padding: 2rem;
+}

@@ -1,0 +1,142 @@
+/* Primary button - Yellow */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.875rem 2rem;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-navy);
+  background: var(--color-yellow);
+  border-radius: var(--border-radius-md);
+  transition: background 0.2s, transform 0.1s;
+  border: 2px solid var(--color-yellow);
+}
+
+.btn-primary:hover {
+  background: var(--color-yellow-hover);
+  border-color: var(--color-yellow-hover);
+}
+
+.btn-primary:active {
+  transform: scale(0.97);
+}
+
+/* Secondary button - Outline teal */
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.875rem 2rem;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-teal);
+  background: var(--color-white);
+  border-radius: var(--border-radius-md);
+  border: 2px solid var(--color-teal);
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn-secondary:hover {
+  background: var(--color-teal);
+  color: var(--color-white);
+}
+
+/* Sign Up button in nav (smaller) */
+.btn-signup {
+  padding: 0.5rem 1.25rem;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-navy);
+  background: var(--color-yellow);
+  border-radius: var(--border-radius-md);
+  transition: background 0.2s;
+  border: 2px solid var(--color-yellow);
+}
+
+.btn-signup:hover {
+  background: var(--color-yellow-hover);
+  border-color: var(--color-yellow-hover);
+}
+
+/* Illustration components */
+.illustration-person {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.illustration-person__figure {
+  width: 340px;
+  height: 360px;
+  border-radius: 30px;
+  background: linear-gradient(145deg, var(--color-teal-light), var(--color-white));
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  box-shadow: var(--shadow-md);
+}
+
+.illustration-person__svg {
+  width: 100%;
+  height: 100%;
+}
+
+.illustration-person__phone {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 80px;
+  height: 120px;
+  background: var(--color-navy);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-lg);
+}
+
+.illustration-person__phone svg {
+  width: 40px;
+  height: 40px;
+}
+
+.illustration-bg-logo {
+  position: absolute;
+  font-size: 12rem;
+  color: var(--color-teal);
+  opacity: 0.07;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  font-weight: 900;
+  line-height: 1;
+}
+
+/* Chat bubble decoration behind person */
+.illustration-chat-bubble {
+  position: absolute;
+  top: 15%;
+  right: 5%;
+  width: 90px;
+  height: 70px;
+  background: var(--color-yellow);
+  opacity: 0.15;
+  border-radius: 20px 20px 20px 4px;
+}
+
+.illustration-chat-bubble::after {
+  content: '';
+  position: absolute;
+  top: 60%;
+  right: 5%;
+  width: 50px;
+  height: 40px;
+  background: var(--color-teal);
+  opacity: 0.12;
+  border-radius: 16px 16px 16px 4px;
+}

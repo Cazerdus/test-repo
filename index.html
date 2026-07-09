@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skipio - Personalized Business Text Messaging</title>
+  <meta name="description" content="Connect with and convert your audience with Skipio's conversational business text messaging.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/utilities.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="container">
+    <nav class="nav-bar">
+      <a href="#" class="nav-bar__logo">
+        <span class="nav-bar__logo-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+          </svg>
+        </span>
+        <span data-i18n="logo_text">Skipio</span>
+      </a>
+
+      <ul class="nav-bar__links">
+        <li><a href="#" data-i18n="nav_product">Product</a></li>
+        <li><a href="#" data-i18n="nav_solutions">Solutions</a></li>
+        <li><a href="#" data-i18n="nav_resources">Resources</a></li>
+        <li><a href="#" data-i18n="nav_pricing">Pricing</a></li>
+        <li><a href="#" data-i18n="nav_login">Login</a></li>
+      </ul>
+
+      <div class="nav-bar__actions">
+        <a href="#" class="btn-signup" data-i18n="nav_signup">Sign Up</a>
+        <button class="nav-bar__hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="mobile-nav-overlay">
+    <button class="mobile-nav-overlay__close" aria-label="Close menu">&times;</button>
+    <div class="mobile-nav-overlay__links">
+      <a href="#" data-i18n="nav_product">Product</a>
+      <a href="#" data-i18n="nav_solutions">Solutions</a>
+      <a href="#" data-i18n="nav_resources">Resources</a>
+      <a href="#" data-i18n="nav_pricing">Pricing</a>
+      <a href="#" data-i18n="nav_login">Login</a>
+    </div>
+    <div class="mobile-nav-overlay__actions">
+      <a href="#" class="btn-primary" data-i18n="nav_signup" style="display:inline-flex;">Sign Up</a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="container">
+    <div class="hero">
+      <div class="hero__content">
+        <h1 class="hero__headline" data-i18n="hero_headline">Personalized Business Text Messaging</h1>
+        <p class="hero__subheadline" data-i18n="hero_subheadline">Connect with and convert your audience with Skipio's conversational business text messaging.</p>
+        <div class="hero__ctas">
+          <a href="#" class="btn-primary" data-i18n="hero_cta_primary">Get Started Now</a>
+          <a href="#" class="btn-secondary" data-i18n="hero_cta_secondary">Talk to an Expert</a>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <div class="illustration-bg-logo" aria-hidden="true">
+          <svg width="200" height="200" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.15">
+            <circle cx="50" cy="50" r="40" stroke="currentColor" fill="none"/>
+            <path d="M30 40 L30 60 Q30 65 35 65 L45 65 L50 72 L55 65 L65 65 Q70 65 70 60 L70 40 Q70 35 65 35 L35 35 Q30 35 30 40Z" fill="currentColor" opacity="0.3"/>
+            <circle cx="42" cy="50" r="3" fill="currentColor"/>
+            <circle cx="58" cy="50" r="3" fill="currentColor"/>
+            <path d="M42 56 Q50 62 58 56" stroke="currentColor" fill="none" stroke-width="2"/>
+          </svg>
+        </div>
+
+        <div class="hero__illustration">
+          <div class="illustration-person">
+            <div class="illustration-person__figure">
+              <!-- SVG Person Illustration -->
+              <svg class="illustration-person__svg" viewBox="0 0 320 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Person body -->
+                <ellipse cx="160" cy="300" rx="80" ry="50" fill="#E8F0F3" opacity="0.8"/>
+                <circle cx="160" cy="170" r="60" fill="#FFDECF"/>
+                <!-- Hair -->
+                <path d="M100 170 Q100 110 160 100 Q220 110 220 170 L200 170 Q200 130 160 120 Q120 130 120 170Z" fill="#3D2B1F"/>
+                <!-- Eyes -->
+                <circle cx="142" cy="165" r="4" fill="#1A2630"/>
+                <circle cx="178" cy="165" r="4" fill="#1A2630"/>
+                <!-- Eyebrows -->
+                <path d="M134 155 Q142 150 150 155" stroke="#3D2B1F" stroke-width="2" fill="none"/>
+                <path d="M170 155 Q178 150 186 155" stroke="#3D2B1F" stroke-width="2" fill="none"/>
+                <!-- Smile -->
+                <path d="M145 180 Q160 194 175 180" stroke="#D4785C" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                <!-- Body / Shirt -->
+                <path d="M110 220 L210 220 L240 340 L80 340Z" fill="#0D5E6E" rx="10"/>
+                <!-- Collar -->
+                <path d="M145 220 L160 245 L175 220" fill="#FFFFFF" opacity="0.3"/>
+                <!-- Left arm holding phone -->
+                <path d="M110 230 Q80 260 90 290 Q95 300 105 295 Q100 280 110 260 Q115 250 120 240" fill="#FFDECF" stroke="#FFDECF" stroke-width="2"/>
+                <!-- Right arm -->
+                <path d="M210 230 Q235 260 240 290" stroke="#FFDECF" stroke-width="16" stroke-linecap="round" fill="none"/>
+                <!-- Phone in left hand -->
+                <rect x="75" y="260" width="32" height="50" rx="6" fill="#0A2E3F"/>
+                <rect x="80" y="268" width="22" height="30" rx="2" fill="#4A90D9" opacity="0.5"/>
+                <circle cx="91" cy="305" r="3" fill="#555"/>
+                <rect x="82" y="272" width="18" height="3" rx="1.5" fill="#F4B740"/>
+                <rect x="82" y="280" width="14" height="2" rx="1" fill="#FFF" opacity="0.6"/>
+              </svg>
+
+              <!-- Decorative chat bubble -->
+              <div class="illustration-chat-bubble" aria-hidden="true"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Language Selector -->
+  <div class="language-selector">
+    <button class="language-selector__toggle" id="langToggle" aria-label="Select language">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M2 12h20"/>
+        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+      </svg>
+      <span class="language-selector__toggle-text" data-i18n="lang_label">English</span>
+    </button>
+    <div class="language-selector__menu">
+      <button class="language-selector__option language-selector__option--active" data-lang-code="en" data-i18n="lang_en">English</button>
+      <button class="language-selector__option" data-lang-code="vi" data-i18n="lang_vi">Tiếng Việt</button>
+    </div>
+  </div>
+
+  <!-- Chat Widget -->
+  <div class="chat-widget">
+    <div class="chat-widget__box">
+      <div class="chat-widget__box-header" data-i18n="chat_header">Chat with Skipio</div>
+      <div class="chat-widget__box-body" data-i18n="chat_body">How can we help you today?</div>
+      <div class="chat-widget__box-footer">
+        <input class="chat-widget__box-input" type="text" data-i18n-placeholder="chat_placeholder" placeholder="Type a message..." aria-label="Chat message">
+      </div>
+    </div>
+    <button class="chat-widget__trigger" aria-label="Open chat">
+      <div class="chat-widget__avatar">S</div>
+      <span class="chat-widget__label" data-i18n="chat_tooltip">Want to talk with an expert?</span>
+    </button>
+  </div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/chat.js"></script>
+</body>
+</html>
